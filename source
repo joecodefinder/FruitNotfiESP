@@ -3,6 +3,8 @@ if not game:IsLoaded() then
     until game:IsLoaded() 
 end
 
+warn("JoeESP has Loaded!")
+
 local local_player = game.Players.LocalPlayer
 local notifier = local_player.PlayerGui:WaitForChild("Main"):WaitForChild("Radar")
 
