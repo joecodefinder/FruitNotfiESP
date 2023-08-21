@@ -226,7 +226,7 @@ else
 	showText("JNotfi loaded successfully", 3)
 end
 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+---loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 
 -- Enables the notifier on startup by simulating a switch click
 onSwitchClick()
